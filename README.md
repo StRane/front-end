@@ -1,6 +1,8 @@
 ## Getting Started
+First mint some Mock USDC from
+https://sepolia.etherscan.io/token/0x53c3a97cd1256b85f142c1c9addd254ee9cc9696
 
-First, run the development server:
+Second, run the development server:
 
 ```bash
 npm run dev
