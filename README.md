@@ -1,16 +1,13 @@
-## Getting Started
-First mint some Mock USDC from
-https://sepolia.etherscan.io/token/0x53c3a97cd1256b85f142c1c9addd254ee9cc9696
+## Usage
 
-Second, run the development server:
+1. Go to [Reown Cloud](https://cloud.reown.com) and create a new project.
+2. Copy your `Project ID`
+3. Rename `.env.example` to `.env` and paste your `Project ID` as the value for `VITE_PROJECT_ID`
+4. Run `pnpm install` to install dependencies
+5. Run `pnpm run dev` to start the development server
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Resources
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the
-result.
+- [Reown — Docs](https://docs.reown.com)
+- [Vite — Docs](https://vitejs.dev/guide/)
+- [Shadcn - Docs](https://ui.shadcn.com/)
