@@ -4,8 +4,8 @@ import { parseUnits } from 'viem'
 import { MockUSDC__factory, CharityPoolWithVolatilityProtection__factory } from '@/types'
 
 // Contract addresses
-const MOCK_USDC_ADDRESS = '0x53C3a97CD1256b85f142C1C9addD254EE9Cc9696' as const
-const CHARITY_POOL_ADDRESS = '0x451497cb178DAcC5f70ACff6dc5Aa0915B13bE3F' as const
+const MOCK_USDC_ADDRESS = '0xA64e1689B1a1890F5c0f0fFa11C674339B8B714b' as const
+const CHARITY_POOL_ADDRESS = '0x126DF791a1fd4f89bcabB404D7AD79155A57909a' as const
 
 // Extract ABIs from your TypeChain factories
 const mockUSDCABI = MockUSDC__factory.abi
